@@ -1,10 +1,15 @@
-# CT421
+# CT421 - Assignment 1
 
-### Assignment 1
+### Liam Holland
+#### 21386331
+
+****
 
 This project was all about using genetic algorithms to find optimal solutions for the travelling salesman problem.
 
 The genetic algorithm is written as a Python script.
+
+****
 
 ### Usage
 
@@ -26,7 +31,7 @@ SOLUTION_POOL_SIZE = 1000
 ```
 
 4. Set parameters at line 479
-```
+```Python
 final_solution_pool, final_fitnesses, time = run_ga(0.1, 1.0, 3, int(SOLUTION_POOL_SIZE * 0.2), 50, True)
 ```
 The order of parameters is mutation rate, crossover rate, tournament size, number of parents brought to next generation, number of generations in convergence check and debugging on flag
@@ -37,7 +42,7 @@ The order of parameters is mutation rate, crossover rate, tournament size, numbe
 run_single()
 ```
 
-##### Run Grid Search
+##### Grid Search
 
 3. Set the population sizes at line 421
 ```Python
@@ -72,6 +77,8 @@ run_grid_search()
 ```sh
 python3 solver.py
 ```
+
+****
 
 ### Output
 
