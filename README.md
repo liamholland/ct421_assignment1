@@ -64,7 +64,7 @@ run_grid_search()
 
 ##### Both
 
-7. Set the operators to use
+6. Set the operators to use
 - Selection is at line 367
     - Options are `tournament`, `roulette_wheel` and `elitism`
 - Crossover is at line 377
@@ -73,7 +73,7 @@ run_grid_search()
     - Options are `swap_mutation`, `rsm_mutation` and `psm_mutation`
 
 
-8. Run the program
+7. Run the program
 ```sh
 python3 solver.py
 ```
