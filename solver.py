@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import time
 import csv
 
-problem = tsp.load('berlin52.tsp')
+problem = tsp.load('tsp_files\\berlin52.tsp')
 
 SOLUTION_POOL_SIZE = 1000
 NUM_NODES = len(list(problem.get_nodes()))
